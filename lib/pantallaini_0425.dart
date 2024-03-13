@@ -10,23 +10,34 @@ class PantallaIni_0425 extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text("Pagina Inicial Acevedo 0425"),
-        backgroundColor: Colors.black,
+        backgroundColor: Color(0xff111010),
       ),
       body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.spaceEvenly,
           children: [
             ElevatedButton(
-              onPressed: () {
-                Navigator.pushNamed(context, '/Pantalla1_0425');
-              },
-              child: Text("Ejemplo Card"),
-            ),
+                onPressed: () {
+                  Navigator.pushNamed(context, '/Pantalla1_0425');
+                },
+                child: Text("Ejemplo Card 1"),
+                style: ElevatedButton.styleFrom(
+                    backgroundColor: Color(0xff5b4bef))),
             ElevatedButton(
+              style:
+                  ElevatedButton.styleFrom(backgroundColor: Color(0xff63c3e8)),
               onPressed: () {
                 Navigator.pushNamed(context, '/Pantalla2_0425');
               },
               child: Text("Ejemplo Card 2"),
+            ),
+            ElevatedButton(
+              style:
+                  ElevatedButton.styleFrom(backgroundColor: Color(0xffff2323)),
+              onPressed: () {
+                Navigator.pushNamed(context, '/Pantalla3_0425');
+              },
+              child: Text("Ejemplo Card 3"),
             )
           ], // fin de nino
         ),

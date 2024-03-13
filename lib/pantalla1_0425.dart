@@ -9,18 +9,20 @@ class Pantalla1_0425 extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Pantalla1 0425 Jonathan'),
-        backgroundColor: Color(0xff2a2b2b),
+        title: Text('Pantalla1 ACEVEDO 0425'),
+        backgroundColor: Color(0xff0f056b),
       ),
       body: Center(
-        child: Card(
-          color: Color(0xffa3ebeb),
-          child: Padding(
-            padding: EdgeInsets.all(16),
-            child: Text(
-              'Flutter Teacher',
-              style: TextStyle(fontSize: 35, color: Color(0xff637593)),
-            ),
+        child: Container(
+          color: Color(0xff5b4bef),
+          width: 300,
+          height: 300,
+          padding: EdgeInsets.all(12),
+          margin: EdgeInsets.symmetric(vertical: 0, horizontal: 32),
+          alignment: Alignment.center,
+          child: Text(
+            'Pantalla1 ACEVEDO',
+            style: TextStyle(fontSize: 30, color: Colors.white),
           ),
         ),
       ),
