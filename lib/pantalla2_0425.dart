@@ -24,7 +24,7 @@ class Pantalla2_0425 extends StatelessWidget {
           ),
           child: Text(
             'Pantalla2 Jonathan Acevedo 0425',
-            style: TextStyle(fontSize: 30),
+            style: TextStyle(fontSize: 30, color: Colors.white),
           ),
         ),
       ),
