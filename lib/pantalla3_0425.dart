@@ -1,5 +1,5 @@
 //Pantalla1_0425
-
+import 'dart:math' as math;
 import 'package:flutter/material.dart';
 
 class Pantalla3_0425 extends StatelessWidget {
@@ -15,16 +15,16 @@ class Pantalla3_0425 extends StatelessWidget {
       body: Center(
         child: Container(
           color: Color(0xffff2323),
-          width: 300,
-          height: 300,
+          width: 250,
+          height: 250,
           padding: EdgeInsets.all(25),
 
           //for anti-clock wise use Matrix4.rotationZ(-(math.pi / 180) * 20),
-          // transform: Matrix4.rotationZ((math.pi / 180) * 20),
+          transform: Matrix4.rotationZ((math.pi / 180) * 20),
 
           child: Text(
             'Pantalla3 JONATHAN ACEVEDO 0425',
-            style: TextStyle(fontSize: 30, color: Colors.white),
+            style: TextStyle(fontSize: 35, color: Colors.white),
           ),
         ),
       ),

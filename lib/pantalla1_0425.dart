@@ -21,7 +21,7 @@ class Pantalla1_0425 extends StatelessWidget {
           margin: EdgeInsets.symmetric(vertical: 0, horizontal: 32),
           alignment: Alignment.center,
           child: Text(
-            'Pantalla1 ACEVEDO',
+            'Pantalla1 ACEVEDO 0425',
             style: TextStyle(fontSize: 30, color: Colors.white),
           ),
         ),
